@@ -38,6 +38,8 @@ script:
 
 after_success:
   - ./ci/success.sh
+  
+  
 
 addons:
   coverity_scan:
